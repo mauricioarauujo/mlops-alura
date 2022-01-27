@@ -12,6 +12,7 @@ WORKDIR /usr
 
 RUN pip3 install -r requirements.txt
 
+COPY ./main.py /usr/main.py
 COPY ./src /urs/src
 COPY ./models /usr/models
 
