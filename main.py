@@ -10,7 +10,7 @@ dotenv_path = find_dotenv()
 load_dotenv(dotenv_path)
 
 colunas = ['tamanho','ano','garagem']
-modelo = pickle.load(open('models\modelo.sav','rb'))
+modelo = pickle.load(open('models/modelo.sav','rb'))
 
 app = Flask(__name__)
 app.config['BASIC_AUTH_USERNAME'] = os.environ.get('BASIC_AUTH_USERNAME')
