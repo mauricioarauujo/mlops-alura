@@ -1,7 +1,7 @@
-mlops-deploy
+MLOps-Deploy
 ==============================
 
-curso mlops deploy alura
+Curso de MLOps e deploy da Alura Cursos Online
 
 Project Organization
 ------------
